@@ -1,9 +1,8 @@
 class Section extends React.Component {
   render() {
     return (
-
+      <body>
         <div className="section flex flex-center" id="register-section" style={{ backgroundColor: this.props.color }}>
-<body>
           <article className = "uk-article">
             <h1 class="uk-article-title">WHAT IS <span className="register-B">B</span>
             <span className ="register-A1">A</span>
@@ -28,9 +27,8 @@ class Section extends React.Component {
               <p className="uk-article-meta">เราไม่จำกัดหัวข้อในการนำเสนอ ถ้าคุณมีเรื่องราวที่สนใจอยากจะพูดคุย คุณสามารถเสนอหัวข้อที่ต้องการได้เลย แต่หากคุณยังคิดไม่ออก คุณก็สามารถเลือกหัวข้อที่คนอื่นเสนอและเข้าไปร่วมพูดคุยได้</p>
               <p className="uk-article-meta">หัวข้อในงานของเรามีความหลากหลายแตกต่างกันไป หัวข้อที่ถูกเลือกอาจจะเกี่ยวกับเทคโนโลยี ทริปท่องเที่ยว สอนธรุกิจ รีวิวเกมส์ เอาตัวรอดในดินแดนซอมบี้ และอื่นๆอีกมากมาย</p>
             </article>
-            </body>
             </div>
-
+            </body>
     );
   }
 }
