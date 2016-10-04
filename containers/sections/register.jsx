@@ -2,7 +2,7 @@ class Section extends React.Component {
   render() {
     return (
       <body id="register-bg">
-        <div className="section flex flex-center" id="register-section" style={{ backgroundColor: this.props.color }}>
+        <div className="section flex flex-center" id="register-section">
           <article className = "uk-article" id = "register-text">
             <h1 class="uk-article-title" >WHAT IS <span id="register-B">B</span>
             <span id ="register-A1">A</span>
