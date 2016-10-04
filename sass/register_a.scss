@@ -1,35 +1,32 @@
-body{
-   background-image: url("../images/bg2web.png");
-   background-repeat: no-repeat;
-   background-size: contain;
-   background-position: center;
+#register-bg{
+  //background-image: url("../images/bg2web.png");
 }
-p{
-  color :white;
-}
-.register-B{
+#register-B{
   color: #a6f7d4;
 }
-.register-A1{
+#register-A1{
   color: #43efce;
 }
-.register-R{
+#register-R{
   color: #05ceb6;
 }
-.register-C{
+#register-C{
   color: #2daebe;
 }
-.register-A2{
+#register-A2{
   color: #237da7;
 }
-.register-M{
+#register-M{
   color: #2daebe;
 }
-.register-P{
+#register-P{
   color: #05ceb6;
 }
 h1{
-  color: white;
+  color:white;
+}
+#register-text{
+  color:red;
 }
 .uk-text-left{
   uk-article{
