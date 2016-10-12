@@ -11,14 +11,14 @@ module.exports = {
         loader: 'babel-loader',
         exclude: /node_modules/,
         query: {
-          presets: ['es2015', 'react']
+          presets: ['es2015', 'react', 'stage-0']
         }
       },
       {
         test: /\.scss$/,
         loaders: ['style', 'css', 'sass']
       },
-      { test: /\.(png|woff|woff2|eot|ttf|svg)$/, loader: 'url-loader?limit=100000' },
+      { test: /\.(jpg|png|woff|woff2|eot|ttf|svg)$/, loader: 'url-loader?limit=100000' },
     ]
   },
   node: {
